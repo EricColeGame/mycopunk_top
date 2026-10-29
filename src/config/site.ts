@@ -25,10 +25,11 @@ export const siteConfig: SiteConfig = {
   tagline: "Weapons, Upgrades, Missions & Co-op Guides",
   description: "Mycopunk guides for weapons, upgrades, missions, enemies, and cooperative play.",
   url: process.env.NEXT_PUBLIC_SITE_URL || "https://mycopunk.top",
-  supportEmail: `support@${new URL(process.env.NEXT_PUBLIC_SITE_URL || "https://mycopunk.top").hostname.replace(/^www\./, "")}`,
+  supportEmail: "support@mycopunk.top",
   gameUrl: "https://store.steampowered.com/app/3247750/Mycopunk/",
   heroVideoId: "9rplvaKp-oY",
   social: {
+    discord: "https://discord.gg/mycopunk",
     youtube: "https://www.youtube.com/watch?v=KJ_vn5911jE",
   },
   locales: ["en", "es", "pt", "de", "fr"],
