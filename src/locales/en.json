@@ -9,7 +9,13 @@
   "nav": {
     "home": "Home",
     "menu": "Menu",
-    "toggleTheme": "Toggle theme"
+    "toggleTheme": "Toggle theme",
+    "guide": "Guide",
+    "weapons": "Weapons",
+    "progression": "Progression",
+    "mechanics": "Mechanics",
+    "modes": "Modes",
+    "maps": "Maps"
   },
   "home": {
     "meta": {
@@ -381,7 +387,6 @@
       "secondary": "Play Mycopunk on Steam"
     }
   },
-  "bosses": {},
   "shared": {
     "wikiNavigation": "Wiki Navigation",
     "activeCodes": "Active Codes",
@@ -412,10 +417,34 @@
     "officialYoutube": "Official YouTube",
     "vvBuilder": "Mycopunk Build Planner",
     "beginnerGuide": "Beginner Guide",
-    "raceGuides": "Race Guides",
-    "bossGuides": "Boss Guides",
-    "buildGuide": "Build Guide",
+    "raceGuides": "Weapon Guides",
+    "bossGuides": "Progression Guides",
+    "buildGuide": "Mechanics Guides",
     "privacyPolicy": "Privacy Policy",
     "termsOfService": "Terms of Service"
+  },
+  "guide": {
+    "overviewTitle": "Mycopunk Guide",
+    "overviewDescription": "Start with beginner tips, achievements, and practical advice before your first Mycopunk mission."
+  },
+  "weapons": {
+    "overviewTitle": "Mycopunk Weapons",
+    "overviewDescription": "Compare Mycopunk weapons, unlocks, and loadout choices for cooperative combat."
+  },
+  "progression": {
+    "overviewTitle": "Mycopunk Progression",
+    "overviewDescription": "Explore Mycopunk builds and ways to develop your squad across missions."
+  },
+  "mechanics": {
+    "overviewTitle": "Mycopunk Mechanics",
+    "overviewDescription": "Understand Mycopunk upgrades, difficulty, threat levels, and elemental effects."
+  },
+  "modes": {
+    "overviewTitle": "Mycopunk Modes",
+    "overviewDescription": "Find Mycopunk multiplayer and cross-platform play information."
+  },
+  "maps": {
+    "overviewTitle": "Mycopunk Maps",
+    "overviewDescription": "Explore Mycopunk locations, including the Desert Secret."
   }
 }
