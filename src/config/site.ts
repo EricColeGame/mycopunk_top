@@ -32,6 +32,6 @@ export const siteConfig: SiteConfig = {
     discord: "https://discord.gg/mycopunk",
     youtube: "https://www.youtube.com/watch?v=KJ_vn5911jE",
   },
-  locales: ["en", "es", "pt", "de", "fr"],
+  locales: ["en", "ja", "de", "es"],
   defaultLocale: "en",
 };
