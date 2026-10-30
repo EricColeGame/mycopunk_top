@@ -1,1 +1,450 @@
-{}
+{
+  "site": {
+    "name": "Wiki de Mycopunk",
+    "shortName": "Mycopunk",
+    "tagline": "Guías de armas, mejoras, misiones y cooperativo",
+    "description": "Guías de Mycopunk para armas, mejoras, misiones, enemigos y juego cooperativo.",
+    "legalNotice": "Wiki de fans no oficial. Hecha por jugadores, para jugadores."
+  },
+  "nav": {
+    "home": "Inicio",
+    "menu": "Menú",
+    "toggleTheme": "Cambiar tema",
+    "guide": "Guía",
+    "weapons": "Armas",
+    "progression": "Progresión",
+    "mechanics": "Mecánicas",
+    "modes": "Modos",
+    "maps": "Mapas"
+  },
+  "home": {
+    "meta": {
+      "title": "Wiki de Mycopunk: guías de armas, builds, mejoras y cooperativo",
+      "description": "Explora consejos para principiantes, armas, rejillas de mejoras, tácticas de misión y guías cooperativas para cuatro jugadores de Mycopunk."
+    },
+    "hero": {
+      "eyebrow": "Wiki comunitaria hecha por fans",
+      "title": "Wiki de Mycopunk",
+      "description": "Domina Mycopunk con guías prácticas para armas, mejoras, misiones, enemigos y juego cooperativo.",
+      "stats": [
+        "Guías de armas",
+        "Guías paso a paso de misiones",
+        "Builds de mejoras",
+        "Consejos para cooperativo"
+      ],
+      "primaryCta": "Guía para principiantes",
+      "secondaryCta": "Explorar guías",
+      "tertiaryCta": "Todas las guías",
+      "videoLabel": "Medios oficiales"
+    },
+    "updates": {
+      "title": "Últimas actualizaciones",
+      "browse": "Explorar todas las guías",
+      "viewAll": "Ver todo"
+    },
+    "start": {
+      "eyebrow": "Empieza aquí",
+      "title": "Tu viaje en Mycopunk",
+      "cards": [
+        {
+          "number": "1",
+          "title": "Guía para principiantes",
+          "description": "Aprende a mantenerte en movimiento, sigue los objetivos de las misiones y encaja tus primeros mods ganados en un equipamiento."
+        },
+        {
+          "number": "2",
+          "title": "Armas para probar",
+          "description": "Compara el Gunship Cannon, el Shocklance y el Plate Launcher como puntos de partida para diferentes estilos de juego."
+        },
+        {
+          "number": "3",
+          "title": "Conceptos básicos de las rejillas de mejoras",
+          "description": "Usa los mods ganados en las misiones para personalizar tu robot y tus armas, y luego experimenta con combinaciones que encajen."
+        },
+        {
+          "number": "4",
+          "title": "Conceptos básicos de combate y cooperativo",
+          "description": "Sigue moviéndote contra las hordas fúngicas, vigila a los enemigos que usan piezas caídas y coordina los objetivos de las misiones con tu tripulación."
+        }
+      ]
+    },
+    "popular": {
+      "eyebrow": "Páginas populares",
+      "title": "Tendencias actuales",
+      "quickLinks": [
+        "Guía para principiantes",
+        "Builds de armas",
+        "Rejillas de mejoras",
+        "Misiones cooperativas"
+      ],
+      "cards": [
+        {
+          "badge": "Principiante",
+          "title": "Guía para principiantes",
+          "description": "Movimiento, objetivos de misión y tus primeras mejoras de armas y robot.",
+          "href": "/guide/mycopunk-beginner-guide"
+        },
+        {
+          "badge": "Actualizado",
+          "title": "Sistema de mejoras",
+          "description": "Aprende cómo los mods ganados en misiones encajan en las rejillas de mejoras de armas y robot.",
+          "href": "/mechanics/mycopunk-upgrade-system"
+        },
+        {
+          "badge": "Actualizado",
+          "title": "Lista de armas",
+          "description": "Explora las armas con nombre y las opciones de personalización descritas por el juego.",
+          "href": "/weapons/mycopunk-weapons-list"
+        },
+        {
+          "badge": "Popular",
+          "title": "Mejores builds",
+          "description": "Explora configuraciones de Trident, DMLR, Gunship Cannon y Cycler compartidas por jugadores.",
+          "href": "/progression/mycopunk-best-builds"
+        },
+        {
+          "badge": "Nuevo",
+          "title": "Niveles de dificultad",
+          "description": "Compara las opciones de desafío y recompensa de las misiones antes de ajustar tu dificultad.",
+          "href": "/mechanics/mycopunk-difficulty-levels"
+        },
+        {
+          "badge": "Popular",
+          "title": "Guía multijugador",
+          "description": "Planifica misiones en solitario o únete a hasta tres amigos en cooperativo en línea.",
+          "href": "/modes/mycopunk-multiplayer"
+        },
+        {
+          "badge": "Popular",
+          "title": "Mejores armas",
+          "description": "Compara las recomendaciones de la comunidad y elige un arma en función de tus mods.",
+          "href": "/weapons/mycopunk-best-weapons"
+        },
+        {
+          "badge": "Nuevo",
+          "title": "Desbloqueos de armas",
+          "description": "Revisa las pistas reportadas por jugadores para Carver, Globbler y Accelerator.",
+          "href": "/weapons/mycopunk-weapon-unlocks"
+        },
+        {
+          "badge": "Nuevo",
+          "title": "Antes de comprar",
+          "description": "Consulta las misiones del juego, las opciones cooperativas, el sistema de mejoras y los requisitos para PC.",
+          "href": "/guide/mycopunk-before-you-buy"
+        }
+      ]
+    },
+    "aboutGame": {
+      "title": "¿Qué es Mycopunk?",
+      "paragraphs": [
+        "Mycopunk es un shooter de botín de ciencia ficción basado en misiones de Pigeons at Play y Devolver Digital. Juega en solitario o únete a un equipo en línea de cuatro robots que luchan contra enemigos fúngicos en misiones en la superficie del planeta. Los enemigos incluso pueden usar piezas que otros enemigos han dejado caer, así que el combate cambia constantemente mientras luchas.",
+        "Cada misión otorga mods para mejoras basadas en rejillas de tu robot y tus armas. Combina y apila las piezas que encajen para experimentar con diferentes roles de combate, y luego vuelve a la nave de descenso orbital entre misiones. Nuestras guías cubren las primeras misiones, la elección de armas, las rejillas de mejoras y el juego cooperativo."
+      ],
+      "stats": [
+        {
+          "label": "Desarrollador",
+          "value": "Pigeons at Play"
+        },
+        {
+          "label": "Editor",
+          "value": "Devolver Digital"
+        },
+        {
+          "label": "Plataforma",
+          "value": "Windows PC"
+        },
+        {
+          "label": "Género",
+          "value": "Shooter de botín"
+        },
+        {
+          "label": "Cooperativo en línea",
+          "value": "Hasta 4 jugadores"
+        },
+        {
+          "label": "Logros de Steam",
+          "value": "48"
+        },
+        {
+          "label": "Lanzamiento completo",
+          "value": "20 de octubre de 2026"
+        }
+      ],
+      "cta": "Explora todas las guías"
+    },
+    "explore": {
+      "title": "Explora las guías de Mycopunk",
+      "description": "Explora estrategias para principiantes, comparativas de armas, ideas de builds, rejillas de mejoras, tácticas de misión y actualizaciones del juego.",
+      "modules": [
+        {
+          "order": 1,
+          "name": "Guía para principiantes de Mycopunk",
+          "description": "Aprende el bucle principal de misiones, el movimiento, las prioridades de combate y cómo usar tus primeros mods ganados.",
+          "href": "/guide/mycopunk-beginner-guide",
+          "displayType": "step-by-step",
+          "highlights": [
+            {
+              "label": "1",
+              "detail": "Mantente en movimiento mientras luchas contra hordas de enemigos fúngicos."
+            },
+            {
+              "label": "2",
+              "detail": "Sigue el objetivo actual de la misión antes de quedarte en el combate."
+            },
+            {
+              "label": "3",
+              "detail": "Revisa los mods ganados en misiones y encaja algunos en tu rejilla de mejoras."
+            }
+          ]
+        },
+        {
+          "order": 2,
+          "name": "Lista de niveles de armas de Mycopunk",
+          "description": "Compara las armas recomendadas por los jugadores según su versatilidad, manejo y cuánto les afectan sus rejillas de mejoras.",
+          "href": "/weapons/mycopunk-best-weapons",
+          "displayType": "tier-grid",
+          "highlights": [
+            {
+              "label": "S",
+              "detail": "Gunship Cannon: una elección de la comunidad para uso polivalente."
+            },
+            {
+              "label": "A",
+              "detail": "Shocklance: elogiado por su movimiento y daño con mejoras sustanciales."
+            },
+            {
+              "label": "B",
+              "detail": "Plate Launcher: preferido por los jugadores para grupos y objetivos individuales; la gravedad de los proyectiles requiere práctica."
+            },
+            {
+              "label": "C",
+              "detail": "Trident: una opción de build elemental de la comunidad cuyos resultados dependen de los mods."
+            }
+          ]
+        },
+        {
+          "order": 3,
+          "name": "Mejores builds de Mycopunk",
+          "description": "Explora combinaciones de armas y mods compartidas por jugadores para diferentes estilos de combate, y luego adáptalas a las piezas que consigas.",
+          "href": "/progression/mycopunk-best-builds",
+          "displayType": "card-list",
+          "highlights": [
+            {
+              "label": "Trident",
+              "detail": "Una configuración elemental de la comunidad usa Shredify, Heaven's Fury y Broadside."
+            },
+            {
+              "label": "DMLR",
+              "detail": "Una rejilla láser compartida por jugadores combina Hot Swap con Arc Lightning y Hard Light Bypass."
+            },
+            {
+              "label": "Cycler",
+              "detail": "Shock Recursion aparece en una build reportada de Cycler junto con Charged Cartridges."
+            },
+            {
+              "label": "Cannon",
+              "detail": "Una configuración de Gunship Cannon empieza con Thumper y Point Demolition."
+            }
+          ]
+        },
+        {
+          "order": 4,
+          "name": "Guía de armas de Mycopunk",
+          "description": "Explora armas con nombre, sus fortalezas reportadas y el papel de los mods a la hora de cambiar cómo se juegan.",
+          "href": "/weapons/mycopunk-weapons-list",
+          "displayType": "card-list",
+          "highlights": [
+            {
+              "label": "Cannon",
+              "detail": "Los jugadores describen el Gunship Cannon como un arma flexible que probar."
+            },
+            {
+              "label": "Globbler",
+              "detail": "El lanzagranadas de ácido tiene opciones de explosión y mods comentadas por jugadores."
+            },
+            {
+              "label": "Carver",
+              "detail": "Una discusión de la comunidad de Steam describe una ruta de desbloqueo basada en piezas."
+            }
+          ]
+        },
+        {
+          "order": 5,
+          "name": "Guía de mejoras de Mycopunk",
+          "description": "Entiende los mods ganados en misiones y cómo encajarlos, combinarlos y apilarlos dentro de las rejillas de mejoras de armas y robot.",
+          "href": "/mechanics/mycopunk-upgrade-system",
+          "displayType": "code-cards",
+          "highlights": [
+            {
+              "label": "REJILLA",
+              "detail": "Encaja los mods en el espacio disponible de las rejillas del robot y las armas."
+            },
+            {
+              "label": "MODS",
+              "detail": "Cada misión otorga nuevos mods para probar en tu equipamiento."
+            },
+            {
+              "label": "CONFIGURACIÓN",
+              "detail": "Combina y apila mejoras compatibles para un arma o rol elegido."
+            }
+          ]
+        },
+        {
+          "order": 6,
+          "name": "Guía de personajes de Mycopunk",
+          "description": "Empieza con las habilidades de movimiento de cada robot y considera cómo encaja un rol en solitario o cooperativo con tu equipamiento preferido.",
+          "href": "/guide/mycopunk-beginner-guide",
+          "displayType": "card-list",
+          "highlights": [
+            {
+              "label": "Movimiento",
+              "detail": "Prueba las habilidades de tu robot elegido desde el principio para saber cómo reposicionarte."
+            },
+            {
+              "label": "Soporte",
+              "detail": "La descripción oficial del juego nombra el soporte de curación como una dirección de build."
+            },
+            {
+              "label": "Un jugador",
+              "detail": "Las misiones para un jugador están disponibles junto con el cooperativo en línea para cuatro jugadores."
+            }
+          ]
+        },
+        {
+          "order": 7,
+          "name": "Misiones y enemigos de Mycopunk",
+          "description": "Explora los objetivos de las misiones, el comportamiento de los enemigos fúngicos y las decisiones de dificultad que dan forma a cada partida.",
+          "href": "/guide/mycopunk-beginner-guide",
+          "displayType": "card-list",
+          "highlights": [
+            {
+              "label": "Objetivos",
+              "detail": "Sigue los objetivos de la misión antes de dedicar tiempo a enemigos adicionales."
+            },
+            {
+              "label": "Enemigos",
+              "detail": "Otros enemigos pueden recoger piezas que dejan los enemigos derrotados."
+            },
+            {
+              "label": "Nave de descenso",
+              "detail": "La tripulación vuelve a una nave de descenso orbital entre misiones."
+            }
+          ]
+        },
+        {
+          "order": 8,
+          "name": "Actualizaciones y notas del parche de Mycopunk",
+          "description": "Ponte al día con el lanzamiento completo y revisa las guías de armas, mejoras y misiones a medida que el juego cambie.",
+          "href": "/guide/mycopunk-before-you-buy",
+          "displayType": "code-cards",
+          "highlights": [
+            {
+              "label": "2025",
+              "detail": "Mycopunk entró en Acceso anticipado el 10 de julio de 2025."
+            },
+            {
+              "label": "2026",
+              "detail": "El lanzamiento completo llegó el 20 de octubre de 2026."
+            },
+            {
+              "label": "STEAM",
+              "detail": "La ficha actual de la tienda es el lugar para consultar noticias y cambios del juego."
+            }
+          ]
+        }
+      ]
+    },
+    "faq": {
+      "title": "Preguntas frecuentes",
+      "description": "Respuestas rápidas a preguntas comunes sobre Mycopunk, misiones, mejoras y cooperativo.",
+      "items": [
+        {
+          "question": "¿Qué es Mycopunk?",
+          "answer": "Mycopunk es un shooter de botín de ciencia ficción basado en misiones sobre una tripulación de robots que lucha contra enemigos fúngicos. Puedes jugar en solitario o en cooperativo en línea para cuatro jugadores y personalizar robots y armas mediante rejillas de mejoras."
+        },
+        {
+          "question": "¿Puedo jugar a Mycopunk solo?",
+          "answer": "Sí. Steam incluye un jugador junto con cooperativo en línea para cuatro jugadores."
+        },
+        {
+          "question": "¿Cómo obtengo mejoras en Mycopunk?",
+          "answer": "Las misiones otorgan mods que puedes encajar en rejillas de mejoras para tu robot y tus armas. Combina y apila los mods que encajen en el espacio disponible de tu rejilla."
+        },
+        {
+          "question": "¿Cuántos jugadores pueden unirse a una tripulación de Mycopunk?",
+          "answer": "Mycopunk admite hasta cuatro jugadores en cooperativo en línea. Pueden realizar misiones en la superficie del planeta juntos y reagruparse a bordo de la nave de descenso orbital entre misiones."
+        },
+        {
+          "question": "¿Quién desarrolló Mycopunk y dónde puedo jugarlo?",
+          "answer": "Pigeons at Play desarrolló Mycopunk, Devolver Digital lo publicó y la ficha de Steam es compatible con Windows PC."
+        }
+      ]
+    },
+    "finalCta": {
+      "title": "¿Listo para dominar Mycopunk?",
+      "description": "Desde tu primera misión hasta el cooperativo de endgame, nuestro wiki comunitario te cubre con guías gratuitas y actualizadas.",
+      "primary": "Lee la guía para principiantes",
+      "secondary": "Juega a Mycopunk en Steam"
+    }
+  },
+  "shared": {
+    "wikiNavigation": "Navegación del wiki",
+    "activeCodes": "Códigos activos",
+    "updated": "Actualizado",
+    "viewAllCodes": "Ver todos los códigos",
+    "playOnRoblox": "Juega en Steam",
+    "inThisSection": "En esta sección",
+    "tableOfContents": "Tabla de contenidos",
+    "nextSteps": "Próximos pasos",
+    "needHelp": "¿Necesitas ayuda?",
+    "relatedReading": "Lecturas relacionadas",
+    "relatedGuides": "Guías relacionadas",
+    "readMore": "Leer más",
+    "officialMedia": "Medios oficiales",
+    "home": "Inicio",
+    "noGuidesAvailable": "Aún no hay guías disponibles. ¡Vuelve pronto!"
+  },
+  "footer": {
+    "aboutTitle": "Wiki de Mycopunk",
+    "about": "La wiki de Mycopunk es un centro de guías independiente creado por fans que abarca armas, mejoras, misiones, enemigos y juego cooperativo.",
+    "quickLinks": "Enlaces rápidos",
+    "guides": "Guías",
+    "legal": "Aviso legal",
+    "copyright": "2026 Wiki de Mycopunk. No está afiliada a los desarrolladores de Mycopunk ni a Steam.",
+    "description": "Acción y exploración cooperativas en Mycopunk. Encuentra guías prácticas para cada misión y mejora.",
+    "playGame": "Juega a Mycopunk",
+    "officialDiscord": "Discord oficial",
+    "officialYoutube": "YouTube oficial",
+    "vvBuilder": "Planificador de builds de Mycopunk",
+    "beginnerGuide": "Guía para principiantes",
+    "raceGuides": "Guías de armas",
+    "bossGuides": "Guías de progresión",
+    "buildGuide": "Guías de mecánicas",
+    "privacyPolicy": "Política de privacidad",
+    "termsOfService": "Términos de servicio"
+  },
+  "guide": {
+    "overviewTitle": "Guía de Mycopunk",
+    "overviewDescription": "Empieza con consejos para principiantes, logros y recomendaciones prácticas antes de tu primera misión en Mycopunk."
+  },
+  "weapons": {
+    "overviewTitle": "Armas de Mycopunk",
+    "overviewDescription": "Compara armas, desbloqueos y opciones de equipamiento de Mycopunk para el combate cooperativo."
+  },
+  "progression": {
+    "overviewTitle": "Progresión de Mycopunk",
+    "overviewDescription": "Explora builds de Mycopunk y formas de desarrollar tu escuadrón a lo largo de las misiones."
+  },
+  "mechanics": {
+    "overviewTitle": "Mecánicas de Mycopunk",
+    "overviewDescription": "Comprende las mejoras, la dificultad, los niveles de amenaza y los efectos elementales de Mycopunk."
+  },
+  "modes": {
+    "overviewTitle": "Modos de Mycopunk",
+    "overviewDescription": "Encuentra información sobre el multijugador y el juego multiplataforma de Mycopunk."
+  },
+  "maps": {
+    "overviewTitle": "Mapas de Mycopunk",
+    "overviewDescription": "Explora las ubicaciones de Mycopunk, incluida Desert Secret."
+  }
+}

@@ -1,1 +1,450 @@
-{}
+{
+  "site": {
+    "name": "Mycopunk Wiki",
+    "shortName": "Mycopunk",
+    "tagline": "武器、アップグレード、ミッション、協力プレイガイド",
+    "description": "Mycopunkの武器、アップグレード、ミッション、敵、協力プレイのガイド。",
+    "legalNotice": "非公式ファンウィキ。プレイヤーによる、プレイヤーのためのサイト。"
+  },
+  "nav": {
+    "home": "ホーム",
+    "menu": "メニュー",
+    "toggleTheme": "テーマ切り替え",
+    "guide": "ガイド",
+    "weapons": "武器",
+    "progression": "進行",
+    "mechanics": "メカニクス",
+    "modes": "モード",
+    "maps": "マップ"
+  },
+  "home": {
+    "meta": {
+      "title": "Mycopunk Wiki - 武器、ビルド、アップグレード、協力プレイガイド",
+      "description": "Mycopunkの初心者向けヒント、武器、アップグレードグリッド、ミッション戦術、4人協力プレイガイドを探索しましょう。"
+    },
+    "hero": {
+      "eyebrow": "ファン制作コミュニティウィキ",
+      "title": "Mycopunk Wiki",
+      "description": "実用的な武器、アップグレード、ミッション、敵、協力プレイのガイドでMycopunkをマスターしましょう。",
+      "stats": [
+        "武器ガイド",
+        "ミッション攻略",
+        "アップグレードビルド",
+        "協力プレイのヒント"
+      ],
+      "primaryCta": "初心者ガイド",
+      "secondaryCta": "ガイドを見る",
+      "tertiaryCta": "すべてのガイド",
+      "videoLabel": "公式メディア"
+    },
+    "updates": {
+      "title": "最新アップデート",
+      "browse": "すべてのガイドを見る",
+      "viewAll": "すべて表示"
+    },
+    "start": {
+      "eyebrow": "ここから始める",
+      "title": "あなたのMycopunkの旅",
+      "cards": [
+        {
+          "number": "1",
+          "title": "初心者ガイド",
+          "description": "移動を続け、ミッション目標に従い、最初に獲得したMODを装備に組み込む方法を学びましょう。"
+        },
+        {
+          "number": "2",
+          "title": "試すべき武器",
+          "description": "異なるプレイスタイルの出発点として、Gunship Cannon、Shocklance、Plate Launcherを比較しましょう。"
+        },
+        {
+          "number": "3",
+          "title": "アップグレードグリッドの基本",
+          "description": "ミッションで獲得したMODを使ってロボットと武器をカスタマイズし、自分に合う組み合わせを試しましょう。"
+        },
+        {
+          "number": "4",
+          "title": "戦闘と協力プレイの基本",
+          "description": "菌類の大群に対して移動を続け、落とされたパーツを使う敵に注意し、クルーとミッション目標を調整しましょう。"
+        }
+      ]
+    },
+    "popular": {
+      "eyebrow": "人気ページ",
+      "title": "いま話題",
+      "quickLinks": [
+        "初心者ガイド",
+        "武器ビルド",
+        "アップグレードグリッド",
+        "協力プレイミッション"
+      ],
+      "cards": [
+        {
+          "badge": "初心者",
+          "title": "初心者ガイド",
+          "description": "移動、ミッション目標、最初の武器とロボットのアップグレード。",
+          "href": "/guide/mycopunk-beginner-guide"
+        },
+        {
+          "badge": "更新済み",
+          "title": "アップグレードシステム",
+          "description": "ミッションで獲得したMODが武器とロボットのアップグレードグリッドにどう組み込まれるかを学びましょう。",
+          "href": "/mechanics/mycopunk-upgrade-system"
+        },
+        {
+          "badge": "更新済み",
+          "title": "武器一覧",
+          "description": "ゲームで説明されている名前付き武器とカスタマイズオプションを探索しましょう。",
+          "href": "/weapons/mycopunk-weapons-list"
+        },
+        {
+          "badge": "人気",
+          "title": "ベストビルド",
+          "description": "プレイヤー共有のTrident、DMLR、Gunship Cannon、Cyclerのセットアップを探索しましょう。",
+          "href": "/progression/mycopunk-best-builds"
+        },
+        {
+          "badge": "新着",
+          "title": "難易度レベル",
+          "description": "難易度を設定する前に、ミッションの挑戦と報酬の選択肢を比較しましょう。",
+          "href": "/mechanics/mycopunk-difficulty-levels"
+        },
+        {
+          "badge": "人気",
+          "title": "マルチプレイガイド",
+          "description": "ソロミッションを計画するか、最大3人のフレンドとオンライン協力プレイに参加しましょう。",
+          "href": "/modes/mycopunk-multiplayer"
+        },
+        {
+          "badge": "人気",
+          "title": "ベスト武器",
+          "description": "コミュニティのおすすめを比較し、自分のMODに合わせて武器を選びましょう。",
+          "href": "/weapons/mycopunk-best-weapons"
+        },
+        {
+          "badge": "新着",
+          "title": "武器アンロック",
+          "description": "Carver、Globbler、Acceleratorに関するプレイヤー報告の手がかりを確認しましょう。",
+          "href": "/weapons/mycopunk-weapon-unlocks"
+        },
+        {
+          "badge": "新着",
+          "title": "購入前に",
+          "description": "ゲームのミッション、協力プレイオプション、アップグレードシステム、PC要件を確認しましょう。",
+          "href": "/guide/mycopunk-before-you-buy"
+        }
+      ]
+    },
+    "aboutGame": {
+      "title": "Mycopunkとは？",
+      "paragraphs": [
+        "Mycopunkは、Pigeons at PlayとDevolver DigitalによるミッションベースのSFルートシューターです。ソロでプレイするか、最大4人のオンラインクルーに参加して、惑星上のミッションで菌類の敵と戦うロボットたちを操作します。敵は他の敵が落としたパーツを使うことさえあるため、戦闘は戦いながら変化し続けます。",
+        "各ミッションでは、ロボットと武器のグリッドベースのアップグレード用MODを獲得します。自分に合うパーツを組み合わせて積み重ね、さまざまな戦闘ロールを試したら、ミッション間には軌道ドロップシップに戻ります。当ガイドでは最初のミッション、武器の選択、アップグレードグリッド、協力プレイを扱います。"
+      ],
+      "stats": [
+        {
+          "label": "開発",
+          "value": "Pigeons at Play"
+        },
+        {
+          "label": "販売",
+          "value": "Devolver Digital"
+        },
+        {
+          "label": "プラットフォーム",
+          "value": "Windows PC"
+        },
+        {
+          "label": "ジャンル",
+          "value": "ルートシューター"
+        },
+        {
+          "label": "オンライン協力プレイ",
+          "value": "最大4人"
+        },
+        {
+          "label": "Steam実績",
+          "value": "48"
+        },
+        {
+          "label": "正式リリース",
+          "value": "2026年10月20日"
+        }
+      ],
+      "cta": "すべてのガイドを探索"
+    },
+    "explore": {
+      "title": "Mycopunkガイドを探索",
+      "description": "初心者向け戦略、武器比較、ビルドのアイデア、アップグレードグリッド、ミッション戦術、ゲームアップデートを閲覧しましょう。",
+      "modules": [
+        {
+          "order": 1,
+          "name": "Mycopunk初心者ガイド",
+          "description": "基本的なミッションループ、移動、戦闘の優先順位、最初に獲得したMODの使い方を学びましょう。",
+          "href": "/guide/mycopunk-beginner-guide",
+          "displayType": "step-by-step",
+          "highlights": [
+            {
+              "label": "1",
+              "detail": "菌類の敵の大群と戦う間も移動を続けましょう。"
+            },
+            {
+              "label": "2",
+              "detail": "戦闘に長居する前に、現在のミッション目標に従いましょう。"
+            },
+            {
+              "label": "3",
+              "detail": "ミッションで獲得したMODを確認し、いくつかをアップグレードグリッドに組み込みましょう。"
+            }
+          ]
+        },
+        {
+          "order": 2,
+          "name": "Mycopunk武器ティアリスト",
+          "description": "汎用性、扱いやすさ、アップグレードグリッドの影響度でプレイヤーおすすめの武器を比較しましょう。",
+          "href": "/weapons/mycopunk-best-weapons",
+          "displayType": "tier-grid",
+          "highlights": [
+            {
+              "label": "S",
+              "detail": "Gunship Cannon：汎用用途でコミュニティに選ばれる武器。"
+            },
+            {
+              "label": "A",
+              "detail": "Shocklance：大幅なアップグレードにより移動とダメージで高評価。"
+            },
+            {
+              "label": "B",
+              "detail": "Plate Launcher：集団と単体標的にプレイヤー人気。発射物の重力には慣れが必要。"
+            },
+            {
+              "label": "C",
+              "detail": "Trident：結果がMODに左右される、コミュニティの元素ビルド選択肢。"
+            }
+          ]
+        },
+        {
+          "order": 3,
+          "name": "Mycopunkベストビルド",
+          "description": "さまざまな戦闘スタイル向けにプレイヤーが共有した武器とMODの組み合わせを探索し、獲得したパーツに合わせて調整しましょう。",
+          "href": "/progression/mycopunk-best-builds",
+          "displayType": "card-list",
+          "highlights": [
+            {
+              "label": "Trident",
+              "detail": "コミュニティの元素セットアップでは、Shredify、Heaven's Fury、Broadsideを使用。"
+            },
+            {
+              "label": "DMLR",
+              "detail": "プレイヤー共有のレーザーグリッドは、Hot SwapをArc LightningとHard Light Bypassと組み合わせます。"
+            },
+            {
+              "label": "Cycler",
+              "detail": "報告されているCyclerビルドでは、Shock RecursionがCharged Cartridgesとともに登場。"
+            },
+            {
+              "label": "Cannon",
+              "detail": "Gunship CannonのセットアップはThumperとPoint Demolitionから始まります。"
+            }
+          ]
+        },
+        {
+          "order": 4,
+          "name": "Mycopunk武器ガイド",
+          "description": "名前付き武器、報告されている強み、プレイ感を変えるMODの役割を閲覧しましょう。",
+          "href": "/weapons/mycopunk-weapons-list",
+          "displayType": "card-list",
+          "highlights": [
+            {
+              "label": "Cannon",
+              "detail": "プレイヤーはGunship Cannonを試す価値のある柔軟な武器と評しています。"
+            },
+            {
+              "label": "Globbler",
+              "detail": "酸グレネードランチャーには、プレイヤーが議論する爆発とMODの選択肢があります。"
+            },
+            {
+              "label": "Carver",
+              "detail": "Steamコミュニティの議論では、パーツベースのアンロックルートが説明されています。"
+            }
+          ]
+        },
+        {
+          "order": 5,
+          "name": "Mycopunkアップグレードガイド",
+          "description": "ミッションで獲得したMODを理解し、武器とロボットのアップグレードグリッド内で組み込み、混ぜ、積み重ねる方法を学びましょう。",
+          "href": "/mechanics/mycopunk-upgrade-system",
+          "displayType": "code-cards",
+          "highlights": [
+            {
+              "label": "GRID",
+              "detail": "ロボットと武器のグリッド上の利用可能なスペースにMODを組み込みましょう。"
+            },
+            {
+              "label": "MODS",
+              "detail": "各ミッションでは装備に試せる新しいMODを獲得します。"
+            },
+            {
+              "label": "BUILD",
+              "detail": "選択した武器やロールに合わせて、互換性のあるアップグレードを混ぜて積み重ねましょう。"
+            }
+          ]
+        },
+        {
+          "order": 6,
+          "name": "Mycopunkキャラクターガイド",
+          "description": "各ロボットの移動アビリティから始め、ソロまたは協力プレイのロールが好みの装備にどう合うかを考えましょう。",
+          "href": "/guide/mycopunk-beginner-guide",
+          "displayType": "card-list",
+          "highlights": [
+            {
+              "label": "移動",
+              "detail": "選んだロボットのアビリティを早めに試し、位置変更の方法を把握しましょう。"
+            },
+            {
+              "label": "サポート",
+              "detail": "公式ゲーム説明では、回復サポートがビルドの方向性として挙げられています。"
+            },
+            {
+              "label": "ソロ",
+              "detail": "シングルプレイミッションは、最大4人のオンライン協力プレイと並んで利用できます。"
+            }
+          ]
+        },
+        {
+          "order": 7,
+          "name": "Mycopunkミッションと敵",
+          "description": "ミッション目標、菌類の敵の行動、各ランを形作る難易度選択を探索しましょう。",
+          "href": "/guide/mycopunk-beginner-guide",
+          "displayType": "card-list",
+          "highlights": [
+            {
+              "label": "目標",
+              "detail": "余分な敵に時間を使う前に、ミッション目標を追いましょう。"
+            },
+            {
+              "label": "敵",
+              "detail": "他の敵が倒された敵の残したパーツを拾うことがあります。"
+            },
+            {
+              "label": "ドロップシップ",
+              "detail": "クルーはミッション間に軌道ドロップシップへ戻ります。"
+            }
+          ]
+        },
+        {
+          "order": 8,
+          "name": "Mycopunkアップデートとパッチノート",
+          "description": "正式リリースを確認し、ゲームの変化に合わせて武器、アップグレード、ミッションガイドを見直しましょう。",
+          "href": "/guide/mycopunk-before-you-buy",
+          "displayType": "code-cards",
+          "highlights": [
+            {
+              "label": "2025",
+              "detail": "Mycopunkは2025年7月10日に早期アクセスを開始しました。"
+            },
+            {
+              "label": "2026",
+              "detail": "正式リリースは2026年10月20日に登場しました。"
+            },
+            {
+              "label": "STEAM",
+              "detail": "現在のストアページは、ゲームのニュースと変更を確認する場所です。"
+            }
+          ]
+        }
+      ]
+    },
+    "faq": {
+      "title": "よくある質問",
+      "description": "ミッション、アップグレード、協力プレイに関するMycopunkのよくある質問への簡単な回答。",
+      "items": [
+        {
+          "question": "Mycopunkとは？",
+          "answer": "Mycopunkは、ロボットのクルーが菌類の敵と戦うミッションベースのSFルートシューターです。ソロまたは最大4人のオンライン協力プレイで遊べ、アップグレードグリッドを通じてロボットと武器をカスタマイズできます。"
+        },
+        {
+          "question": "Mycopunkは一人でプレイできますか？",
+          "answer": "はい。Steamではシングルプレイが最大4人のオンライン協力プレイと並んで記載されています。"
+        },
+        {
+          "question": "Mycopunkでアップグレードを入手するには？",
+          "answer": "ミッションでMODを獲得し、ロボットと武器のアップグレードグリッドに組み込めます。利用可能なグリッドスペースに合うMODを混ぜて積み重ねましょう。"
+        },
+        {
+          "question": "Mycopunkのクルーには何人が参加できますか？",
+          "answer": "Mycopunkはオンライン協力プレイで最大4人をサポートします。惑星上のミッションを一緒に進め、ミッション間には軌道ドロップシップで再集合できます。"
+        },
+        {
+          "question": "Mycopunkを開発したのは誰で、どこでプレイできますか？",
+          "answer": "Pigeons at PlayがMycopunkを開発し、Devolver Digitalが販売しており、SteamのページはWindows PCをサポートしています。"
+        }
+      ]
+    },
+    "finalCta": {
+      "title": "Mycopunkをマスターする準備はできましたか？",
+      "description": "最初のミッションからエンドゲームの協力プレイまで、コミュニティウィキが無料で最新のガイドを提供します。",
+      "primary": "初心者ガイドを読む",
+      "secondary": "SteamでMycopunkをプレイ"
+    }
+  },
+  "shared": {
+    "wikiNavigation": "ウィキナビゲーション",
+    "activeCodes": "有効なコード",
+    "updated": "更新済み",
+    "viewAllCodes": "すべてのコードを見る",
+    "playOnRoblox": "Steamでプレイ",
+    "inThisSection": "このセクション内",
+    "tableOfContents": "目次",
+    "nextSteps": "次のステップ",
+    "needHelp": "助けが必要ですか？",
+    "relatedReading": "関連記事",
+    "relatedGuides": "関連ガイド",
+    "readMore": "続きを読む",
+    "officialMedia": "公式メディア",
+    "home": "ホーム",
+    "noGuidesAvailable": "利用可能なガイドはまだありません。近日中に再度確認してください！"
+  },
+  "footer": {
+    "aboutTitle": "Mycopunk Wiki",
+    "about": "Mycopunk Wikiは、武器、アップグレード、ミッション、敵、協力プレイを扱う独立したファン制作のガイドハブです。",
+    "quickLinks": "クイックリンク",
+    "guides": "ガイド",
+    "legal": "法務",
+    "copyright": "2026 Mycopunk Wiki。Mycopunkの開発者またはSteamとは提携していません。",
+    "description": "Mycopunkでの協力アクションと探索。すべてのミッションとアップグレードに役立つ実用的なガイドを見つけましょう。",
+    "playGame": "Mycopunkをプレイ",
+    "officialDiscord": "公式Discord",
+    "officialYoutube": "公式YouTube",
+    "vvBuilder": "Mycopunkビルドプランナー",
+    "beginnerGuide": "初心者ガイド",
+    "raceGuides": "武器ガイド",
+    "bossGuides": "進行ガイド",
+    "buildGuide": "メカニクスガイド",
+    "privacyPolicy": "プライバシーポリシー",
+    "termsOfService": "利用規約"
+  },
+  "guide": {
+    "overviewTitle": "Mycopunkガイド",
+    "overviewDescription": "最初のMycopunkミッションの前に、初心者向けヒント、実績、実用的なアドバイスから始めましょう。"
+  },
+  "weapons": {
+    "overviewTitle": "Mycopunk武器",
+    "overviewDescription": "協力戦闘向けにMycopunkの武器、アンロック、装備の選択肢を比較しましょう。"
+  },
+  "progression": {
+    "overviewTitle": "Mycopunk進行",
+    "overviewDescription": "Mycopunkのビルドと、ミッションを通じて分隊を成長させる方法を探索しましょう。"
+  },
+  "mechanics": {
+    "overviewTitle": "Mycopunkメカニクス",
+    "overviewDescription": "Mycopunkのアップグレード、難易度、脅威レベル、元素効果を理解しましょう。"
+  },
+  "modes": {
+    "overviewTitle": "Mycopunkモード",
+    "overviewDescription": "Mycopunkのマルチプレイとクロスプラットフォームプレイ情報を見つけましょう。"
+  },
+  "maps": {
+    "overviewTitle": "Mycopunkマップ",
+    "overviewDescription": "Desert Secretを含むMycopunkのロケーションを探索しましょう。"
+  }
+}
