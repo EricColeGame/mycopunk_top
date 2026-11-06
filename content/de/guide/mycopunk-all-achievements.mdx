@@ -1,43 +1,49 @@
 export const metadata = {
-  title: "Alle Mycopunk-Erfolge: Bestätigte Anzahl und was über die Freischaltung bekannt ist",
-  description: "Mycopunk hat 48 Steam-Erfolge. Erfahre, was bestätigt ist und warum eine vollständige Anleitung zum Freischalten derzeit nicht möglich ist.",
+  title: "Alle Mycopunk-Erfolge: 48 Steam-Erfolge und bestätigte Beispiele",
+  description: "Mycopunk hat 48 Steam-Erfolge. Hier findest du zehn Namen aus der offiziellen Steam-API und erfährst, welche Freischaltbedingungen noch nicht belegt sind.",
   category: "guide",
-  date: "2026-10-29",
+  date: "2026-11-06",
 }
 
-Du suchst nach allen Mycopunk-Erfolgen? Die [offizielle Steam-Seite von Mycopunk](https://store.steampowered.com/app/3247750/) bestätigt **48 Erfolge**. Die verfügbaren offiziellen Informationen enthalten jedoch keine vollständige Liste ihrer Namen oder Freischaltbedingungen. Das ist wichtig, wenn du alle Erfolge sammeln möchtest: Die Anzahl ist bestätigt, eine Schritt-für-Schritt-Checkliste wäre dagegen reine Spekulation.
+Mycopunk hat **48 Steam-Erfolge**. Das bestätigt die [offizielle Steam-appdetails-Antwort](https://store.steampowered.com/api/appdetails?appids=3247750&l=english), geprüft am 6. November 2026. Sie nennt Mycopunk als Spiel und 3247750 als Steam-App-ID. Außerdem enthält sie eine hervorgehobene Auswahl von Erfolgsnamen. Diese Seite bietet eine belegte Übersicht, keine vollständige Anleitung zum Freischalten aller 48 Erfolge.
 
-## Wie viele Erfolge hat Mycopunk?
+## Von Steam bestätigte Erfolgsnamen
 
-Mycopunk hat **48 Steam-Erfolge**. Das geht aus dem offiziellen Store-Eintrag hervor, der am 29. Oktober 2026 geprüft wurde. Der Eintrag bestätigt die Gesamtzahl, nicht aber die Bedingungen für die einzelnen Erfolge.
+Die englische API-Antwort enthält diese zehn hervorgehobenen Einträge:
 
-## Was die Spielbeschreibung bestätigt
+- Best Teammate
+- Upgrader
+- Exotic
+- Collector
+- Overclocker
+- Hard Landing
+- Yeehawwwww!
+- Space Optimization
+- ABOMINATION!
+- Big Damage
 
-Mycopunk ist ein missionsbasiertes Spiel für Windows-PCs mit Einzelspieler-Modus und Online-Koop für vier Personen. Spieler können Waffen und Roboter über ein rasterbasiertes Upgrade-System anpassen. In Missionen erhalten sie Mods für diese Raster.
+Die Namen stammen aus Steams Feld `achievements.highlighted`. Diese Auswahl enthält zehn Einträge; **48** ist der separate Wert von `achievements.total`. Die Auswahl ist keine vollständige Liste aller Erfolge.
 
-Diese Funktionen beschreiben das Spiel, belegen aber **keine** Freischaltbedingungen für Erfolge. Ohne Belege für die jeweilige Bedingung wäre es falsch zu behaupten, dass eine bestimmte Mission, Mod-Kombination oder Koop-Aktivität einen Erfolg freischaltet.
+## Was diese Quelle nicht belegt
 
-## Was weiterhin unbestätigt ist
+Die hervorgehobenen Einträge enthalten Namen und Symbole, aber keine Freischaltbedingungen. Aus einem Namen allein lassen sich weder eine erforderliche Mission oder Waffe noch Schwierigkeitsgrad, Schadensgrenze oder Koop-Aktion ableiten. Auch eine verlässliche Dauer oder Reihenfolge für das Freischalten sämtlicher Erfolge ist durch diese Antwort nicht belegt.
 
-Die verfügbaren offiziellen Informationen reichen weder für eine vollständige Checkliste aller Mycopunk-Erfolge noch für Anleitungen zum Freischalten einzelner Erfolge aus. Insbesondere bestätigen sie nicht:
+Deshalb erfindet diese Seite keine Freischaltanweisungen und behauptet nicht, dass alle Erfolge allein erreichbar sind. Prüfe die jeweilige Beschreibung auf Steam oder in einer anderen aktuellen, direkten Erfolgsliste, bevor du einen vollständigen Durchlauf planst.
 
-- Die Namen und Beschreibungen aller 48 Erfolge
-- Welche Erfolge, falls überhaupt, Koop erfordern
-- Konkrete Anforderungen an Missionen, Upgrades oder Kämpfe
-- Die Reihenfolge oder die benötigte Zeit, um alle Erfolge zu erzielen
+## Spielfunktionen sind keine Erfolgsbedingungen
 
-Die **48** kannst du vorerst als bestätigte Gesamtzahl ansehen. Detaillierte Wege zu allen Erfolgen bleiben jedoch unbestätigt, solange sich ihre Anforderungen nicht anhand einer Erfolgsliste oder anderer direkter Belege überprüfen lassen.
+Die [offizielle Mycopunk-Storeseite](https://store.steampowered.com/app/3247750/) beschreibt missionsbasiertes Spielen, Einzelspieler und Online-Koop sowie ein Raster für Waffen-Upgrades. Diese Funktionen liefern Kontext. Sie belegen nicht, dass ein bestimmter Erfolg Koop, eine Upgrade-Kombination oder eine bestimmte Mission voraussetzt.
 
-## FAQ
+## Häufige Fragen
 
-### Gibt es 48 Mycopunk-Erfolge?
+### Wie viele Erfolge hat Mycopunk?
 
-Ja. Der offizielle Steam-Eintrag bestätigt zum 29. Oktober 2026 insgesamt 48 Erfolge.
+Die offizielle Steam-appdetails-API meldet 48, geprüft am 6. November 2026.
 
-### Gibt es hier eine verifizierte Komplettlösung für alle Mycopunk-Erfolge?
+### Sind hier alle 48 Erfolgsnamen aufgeführt?
 
-Nein. Die verfügbare Quelle bestätigt die Anzahl der Erfolge, nennt aber weder alle einzelnen Erfolge noch erklärt sie, wie sie freigeschaltet werden. Auf dieser Grundlage eine vollständige Komplettlösung zu präsentieren, wäre irreführend.
+Nein. Aufgeführt sind die zehn Namen aus der hervorgehobenen API-Auswahl. Die Gesamtzahl wird davon getrennt angegeben.
 
-### Erfordern Mycopunk-Erfolge einen Koop-Modus mit vier Personen?
+### Sind die Freischaltbedingungen hier bestätigt?
 
-Das lässt sich anhand der verfügbaren Belege nicht feststellen. Der Steam-Eintrag bestätigt, dass Online-Koop für vier Personen unterstützt wird. Ob einer der Erfolge diesen Modus voraussetzt, geht daraus nicht hervor.
+Nein. Die Quelle enthält diese Bedingungen nicht. Namen und Gesamtzahl sind bestätigt; eine vollständige Freischaltanleitung wird durch die hier verfügbaren Belege nicht gestützt.
